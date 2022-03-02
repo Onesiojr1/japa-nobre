@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaBars} from 'react-icons/fa'
+import logo from '../../images/logo.png'
 import {
     Nav,
     NavbarContainer, 
@@ -9,7 +10,8 @@ import {
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    Img
 } from './NavbarElements'
 
 const Navbar = ({toggle}) => {
@@ -17,7 +19,7 @@ const Navbar = ({toggle}) => {
     <>
         <Nav>
             <NavbarContainer>
-                <NavLogo to='/'>Japa Nobre</NavLogo>
+                <NavLogo to='/'><Img src={logo} alt='Japa Nobre' /></NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
@@ -26,13 +28,13 @@ const Navbar = ({toggle}) => {
                         <NavLinks to="about">Sobre Nós</NavLinks>
                     </NavItem>
                     <NavItem>
+                        <NavLinks to="Products">Seja um franqueado</NavLinks>
+                    </NavItem>
+                    <NavItem>
                         <NavLinks to="Stores">Lojas</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="Products">Produtos</NavLinks>
-                    </NavItem>
-                    <NavItem>
-                        <NavLinks to="Contact">Fale Cosco</NavLinks>
+                        <NavLinks to="Contact">Fale Conosco</NavLinks>
                     </NavItem>
                 </NavMenu>
                 <NavBtn>

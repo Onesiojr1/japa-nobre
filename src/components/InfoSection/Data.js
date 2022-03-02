@@ -12,7 +12,8 @@ export const homeObjOne = {
     alt: 'sushi',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    where: "Products"
 };
 
 export const homeObjTwo = {
@@ -29,7 +30,8 @@ export const homeObjTwo = {
     alt: 'sushi',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    where: 'products'
 };
 
 export const homeObjThree = {
@@ -46,5 +48,6 @@ export const homeObjThree = {
     alt: 'sushi',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    where: "products"
 };

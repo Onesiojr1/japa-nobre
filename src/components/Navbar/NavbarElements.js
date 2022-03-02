@@ -69,7 +69,7 @@ export const NavMenu = styled.ul`
 `
 
 export const NavItem = styled.li`
-    height: 80px
+    height: 80px;
 `
 
 export const NavLinks = styled(LinkS) `
@@ -113,4 +113,9 @@ export const NavBtnLink = styled(LinkR)`
         background: #fff;
         color: #010606;
     }
+`
+export const Img = styled.img`
+    height: 50px;
+    margin: 0 0 10px 0;
+    padding-right: 0;
 `
