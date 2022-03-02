@@ -38,7 +38,7 @@ const Navbar = ({toggle}) => {
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to="/signin">Entre</NavBtnLink>
+                   <a href="https://japanobre.saipos.com" target="_blank" rel="noreferrer"><NavBtnLink>Peça Agora</NavBtnLink></a> 
                 </NavBtn>
             </NavbarContainer>
         </Nav>

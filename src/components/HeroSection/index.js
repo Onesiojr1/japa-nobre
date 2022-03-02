@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4'
-import {Button} from '../ButtonElement'
+import {ExternalButton} from '../ButtonElement'
 import {
   HeroContainer,
   HeroBG,
@@ -31,9 +31,11 @@ const HeroSection = () => {
           Encronte as melhores promoções no link abaixo!
         </HeroP>
         <HeroBtnWrapper>
-          <Button to="/signin" onMouseEnter={onHover} onMouseLeave={onHover}>
+        <a href="https://japanobre.saipos.com" target="_blank" rel="noreferrer">
+        <ExternalButton onMouseEnter={onHover} onMouseLeave={onHover}>
             Peça Já! {hover ? <ArrowFoward /> : <ArrowRight />}
-          </Button>
+          </ExternalButton>
+          </a>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
