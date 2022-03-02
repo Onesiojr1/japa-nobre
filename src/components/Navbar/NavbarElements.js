@@ -14,7 +14,7 @@ export const Nav = styled.nav`
     top: 0;
     z-index: 10;
 
-    @medida screen and (max-width 960px) {
+    @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
     }
 `
@@ -31,7 +31,7 @@ export const NavbarContainer = styled.div`
 
 export const NavLogo = styled(LinkR)`
     color: #fff;
-    justify-selft: flex-start;
+    justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
     display: flex;
@@ -101,7 +101,7 @@ export const NavBtnLink = styled(LinkR)`
     white-space: nowrap;
     padding: 10px 22px;
     color: #010606;
-    fonst-size: 16px;
+    font-size: 16px;
     outline: none;
     border: none;
     cursor: pointer;
