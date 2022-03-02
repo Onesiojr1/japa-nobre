@@ -16,7 +16,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-    id: 'Stores',
+    id: 'Products',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -33,18 +33,18 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    id: 'Contact',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Sobre Nós',
     headLine: 'A Historia do melhor restaurante japones da sua região',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra fermentum nulla,quis tincidunt ante ultrices eget. Vivamus vitae neque at orci congue faucibus vitae sit amet velit. Nam blandit tristique sem id lacinia. Etiam.',
     buttonLabel: 'Seja um de Nós',
-    imgStart: false,
+    imgStart: true,
     img: require('../../images/svg3.svg').default,
     alt: 'sushi',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 };
