@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/japa-nobre/static/css/main.d7da34c1.css",
-    "main.js": "/japa-nobre/static/js/main.d641b83c.js",
+    "main.js": "/japa-nobre/static/js/main.fceb49ff.js",
     "static/media/video.mp4": "/japa-nobre/static/media/video.b9806d86696ecc11396f.mp4",
     "static/media/logo.png": "/japa-nobre/static/media/logo.ee1ba2d384f0a38de56e.png",
     "static/media/svg1.svg": "/japa-nobre/static/media/svg1.6a8f9da408e0ceaf5e697c1f0eb983da.svg",
@@ -9,10 +9,10 @@
     "static/media/svg2.svg": "/japa-nobre/static/media/svg2.c1c7fbd88b68159aba4ec48943106230.svg",
     "index.html": "/japa-nobre/index.html",
     "main.d7da34c1.css.map": "/japa-nobre/static/css/main.d7da34c1.css.map",
-    "main.d641b83c.js.map": "/japa-nobre/static/js/main.d641b83c.js.map"
+    "main.fceb49ff.js.map": "/japa-nobre/static/js/main.fceb49ff.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.d641b83c.js"
+    "static/js/main.fceb49ff.js"
   ]
 }
