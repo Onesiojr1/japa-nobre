@@ -55,7 +55,7 @@ export const FooterLinkTitle = styled.h1`
 `
 
 export const FooterLink = styled(Link)`
-    color: #fff;
+    color: #FFCC00;
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 14px;

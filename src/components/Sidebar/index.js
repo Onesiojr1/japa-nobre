@@ -25,7 +25,7 @@ const Sidebar = ({isOpen, toggle}) => {
                    Lojas
                 </SidebarLink>
                 <SidebarLink to="Products" onClick={toggle}>
-                   Profutos 
+                   Produtos 
                 </SidebarLink>
                 <SidebarLink to="Contact" onClick={toggle}>
                    Fale Conosco 

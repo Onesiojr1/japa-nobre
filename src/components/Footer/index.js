@@ -31,28 +31,18 @@ const Footer = () => {
                             <FooterLink to='/signin'>Fale Conosco</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>Saiba Mais</FooterLinkTitle>
-                            <FooterLink to='/signin'>Entre</FooterLink>
-                            <FooterLink to='/signin'>Sobre Nós</FooterLink>
-                            <FooterLink to='/signin'>Seja um franqueado</FooterLink>
-                            <FooterLink to='/signin'>Lojas</FooterLink>
-                            <FooterLink to='/signin'>Fale Conosco</FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='' >
-                            Japa Nobre
+                            Hakuna Batata
                         </SocialLogo>
-                        <WebsiteRights>Jaoa Nobre ©{new Date().getFullYear()} Todos os direitos reservados</WebsiteRights>
+                        <WebsiteRights>Hakuna Batata ©{new Date().getFullYear()} Todos os direitos reservados</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="//www.facebook.com/JAPANOBRE/" target="_blank" arial-label="Facebook">
+                            <SocialIconLink href="//www.facebook.com/hakunabatataoficial/" target="_blank" arial-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
-                            <SocialIconLink href="//www.instagram.com/japanobre/" target="_blank" arial-label="Instagram">
+                            <SocialIconLink href="//www.instagram.com/hakunabatataoficial/" target="_blank" arial-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
                         </SocialIcons>

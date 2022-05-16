@@ -13,7 +13,8 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: false,
-    where: "Products"
+    where: "Products",
+    redirect: false
 };
 
 export const homeObjTwo = {
@@ -31,7 +32,8 @@ export const homeObjTwo = {
     dark: false,
     primary: false,
     darkText: true,
-    where: 'products'
+    where: '/products',
+    redirect: true
 };
 
 export const homeObjThree = {
@@ -39,7 +41,7 @@ export const homeObjThree = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Sobre Nós',
+    topLine: 'Sobre Nó22s',
     headLine: 'A Historia do melhor restaurante japones da sua região',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra fermentum nulla,quis tincidunt ante ultrices eget. Vivamus vitae neque at orci congue faucibus vitae sit amet velit. Nam blandit tristique sem id lacinia. Etiam.',
     buttonLabel: 'Seja um de Nós',
@@ -49,5 +51,6 @@ export const homeObjThree = {
     dark: false,
     primary: false,
     darkText: true,
-    where: "products"
+    where: '/contato',
+    redirect: true
 };
