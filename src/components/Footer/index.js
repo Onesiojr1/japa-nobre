@@ -3,11 +3,6 @@ import { FaFacebook, FaInstagram } from 'react-icons/fa'
 import {
     FooterContainer,
     FooterWrap,
-    FooterLinksContainer,
-    FooterLinksWrapper,
-    FooterLinkItems,
-    FooterLinkTitle,
-    FooterLink,
     SocialMedia,
     SocialMediaWrap,
     SocialLogo,
@@ -20,18 +15,6 @@ const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrap>
-                <FooterLinksContainer>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>Saiba Mais</FooterLinkTitle>
-                            <FooterLink to='/signin'>Entre</FooterLink>
-                            <FooterLink to='/signin'>Sobre Nós</FooterLink>
-                            <FooterLink to='/signin'>Seja um franqueado</FooterLink>
-                            <FooterLink to='/signin'>Lojas</FooterLink>
-                            <FooterLink to='/signin'>Fale Conosco</FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-                </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='' >

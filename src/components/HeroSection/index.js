@@ -26,14 +26,14 @@ const HeroSection = () => {
         <VideoBG autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBG>
       <HeroContent>
-        <HeroH1>O Melhor da comida oriental!</HeroH1>
+        <HeroH1>A INVASÃO DO FRANGO</HeroH1>
         <HeroP>
-          Encronte as melhores promoções no link abaixo!
+          Uma receita nada secreta!
         </HeroP>
         <HeroBtnWrapper>
-        <a href="https://japanobre.saipos.com" target="_blank" rel="noreferrer">
+        <a href="/invasaodofrango" target="_blank" rel="noreferrer">
         <ExternalButton onMouseEnter={onHover} onMouseLeave={onHover}>
-            Peça Já! {hover ? <ArrowFoward /> : <ArrowRight />}
+            Saiba mais! {hover ? <ArrowFoward /> : <ArrowRight />}
           </ExternalButton>
           </a>
         </HeroBtnWrapper>

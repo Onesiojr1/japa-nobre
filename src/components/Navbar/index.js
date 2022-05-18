@@ -10,6 +10,7 @@ import {
     NavMenu,
     NavItem,
     NavLinks,
+    NavLinkr,
     NavBtn,
     NavBtnLink,
     Img
@@ -53,11 +54,15 @@ const Navbar = ({toggle}) => {
                         <NavLinks to="Stores" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active">Lojas</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="Contact" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active">Fale Conosco</NavLinks>
+                        <NavLinks to="Contact" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active">Cardapio</NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinkr to="/contato" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active">Fale Conosco</NavLinkr>
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                   <a href="https://japanobre.saipos.com" target="_blank" rel="noreferrer"><NavBtnLink>Peça Agora</NavBtnLink></a> 
+                    <NavLinks to="Stores" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active"><NavBtnLink>Faça Seu pedido</NavBtnLink></NavLinks>
+                   {/* <a href="https://japanobre.saipos.com" target="_blank" rel="noreferrer"><NavBtnLink>Peça Agora</NavBtnLink></a> */}
                 </NavBtn>
             </NavbarContainer>
         </Nav>

@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 import { Container, FormButton, FormContent, FormInput, FormWrap, FormLabel, FormH1, Form, Icon, FormText } from './SigninElements'
 
 const SignIn = () => {
+    const form = useRef()
 
     function sendEmail(e) {
-
+        e.preventDefault();
+        emailjs.sendForm('service_b1crwic', 'HKN_Contact', form.current, 'PrBTm1UBJiqPMILUn')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          
+          e.target.reset()
     }
 
   return (
@@ -13,13 +23,15 @@ const SignIn = () => {
             <FormWrap>
                 <Icon to="/">Hakuna Batata</Icon>
                 <FormContent>
-                    <Form action={sendEmail}>
+                    <Form ref={form} onSubmit={sendEmail}>
                         <FormH1>Contato</FormH1>
-                        <FormLabel htmlFor='for'>Email</FormLabel>
+                        <FormLabel htmlFor='for'>Nome:</FormLabel>
+                        <FormInput type='text' name='name' required />
+                        <FormLabel htmlFor='for'>Email:</FormLabel>
                         <FormInput type='email' name='email' required />
-                        <FormLabel htmlFor='for'>Sua mensagem</FormLabel>
+                        <FormLabel htmlFor='for'>Sua mensagem:</FormLabel>
                         <FormText type='text' name='message' required />
-                        <FormButton type='submit'>Enviar</FormButton>
+                        <FormButton type='submit' >Enviar</FormButton>
                     </Form>
                 </FormContent>
             </FormWrap>
