@@ -51,9 +51,6 @@ const Navbar = ({toggle}) => {
                         <NavLinks to="Products" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active">Seja um franqueado</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="Stores" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active">Lojas</NavLinks>
-                    </NavItem>
-                    <NavItem>
                         <NavLinks to="Contact" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active">Cardapio</NavLinks>
                     </NavItem>
                     <NavItem>
@@ -61,8 +58,7 @@ const Navbar = ({toggle}) => {
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <NavLinks to="Stores" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active"><NavBtnLink>Faça Seu pedido</NavBtnLink></NavLinks>
-                   {/* <a href="https://japanobre.saipos.com" target="_blank" rel="noreferrer"><NavBtnLink>Peça Agora</NavBtnLink></a> */}
+                    <NavLinks to="Stores" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active"><NavBtnLink>Peça já</NavBtnLink></NavLinks>
                 </NavBtn>
             </NavbarContainer>
         </Nav>
