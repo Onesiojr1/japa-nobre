@@ -53,6 +53,6 @@ export const homeObjThree = {
     dark: true,
     primary: true,
     darkText: false,
-    where: '/contato',
+    where: '/franquia',
     redirect: true
 };
