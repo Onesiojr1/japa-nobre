@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/japa-nobre/static/css/main.d7da34c1.css",
-    "main.js": "/japa-nobre/static/js/main.a580f4a3.js",
+    "main.js": "/japa-nobre/static/js/main.1cb9a6c5.js",
     "static/media/video.mp4": "/japa-nobre/static/media/video.f3055bcdfcbc1605ff81.mp4",
+    "static/media/Cardapio.png": "/japa-nobre/static/media/Cardapio.0decf4dab0ac94edda18.png",
     "static/media/logo.png": "/japa-nobre/static/media/logo.4ab19f85f9317ac2f104.png",
+    "static/media/MG01.jpeg": "/japa-nobre/static/media/MG01.7c935405a4582f0cb218.jpeg",
     "static/media/about-01.jpg": "/japa-nobre/static/media/about-01.577705f3058b2ecbb414.jpg",
-    "static/media/svg3.svg": "/japa-nobre/static/media/svg3.10224620325e7533d2369a21f8db88fb.svg",
-    "static/media/svg2.svg": "/japa-nobre/static/media/svg2.3cc4d49a769e22467160066f11a6fde0.svg",
     "index.html": "/japa-nobre/index.html",
     "main.d7da34c1.css.map": "/japa-nobre/static/css/main.d7da34c1.css.map",
-    "main.a580f4a3.js.map": "/japa-nobre/static/js/main.a580f4a3.js.map"
+    "main.1cb9a6c5.js.map": "/japa-nobre/static/js/main.1cb9a6c5.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.a580f4a3.js"
+    "static/js/main.1cb9a6c5.js"
   ]
 }
