@@ -31,11 +31,9 @@ const HeroSection = () => {
           Uma receita nada secreta!
         </HeroP>
         <HeroBtnWrapper>
-        <a href="/invasaodofrango" target="_blank" rel="noreferrer">
-        <ExternalButton onMouseEnter={onHover} onMouseLeave={onHover}>
+        <ExternalButton to="/invasaodofrango" onMouseEnter={onHover} onMouseLeave={onHover}>
             Saiba mais! {hover ? <ArrowFoward /> : <ArrowRight />}
           </ExternalButton>
-          </a>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
