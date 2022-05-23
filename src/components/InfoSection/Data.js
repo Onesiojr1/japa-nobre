@@ -48,7 +48,7 @@ export const homeObjThree = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Cardapio',
+    topLine: 'Cardápio',
     headLine: '',
     description: 'Clique em "Peça já" e encontre a loja mais proxima de você!',
     buttonLabel: 'Peça já!',

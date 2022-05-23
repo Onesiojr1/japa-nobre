@@ -31,7 +31,7 @@ const Chicken = () => {
                         <FormH1>Receba essa incrivel receita por email</FormH1>
                         <FormLabel htmlFor='for'>Nome:</FormLabel>
                         <FormInput type='text' name='name' required />
-                        <FormLabel htmlFor='for'>Email:</FormLabel>
+                        <FormLabel htmlFor='for'>Melhor Email para receber:</FormLabel>
                         <FormInput type='email' name='email' required />
                         <FormButton type='submit' >Enviar</FormButton>
                     </Form>

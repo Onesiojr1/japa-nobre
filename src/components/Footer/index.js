@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaTiktok  } from 'react-icons/fa'
 import {
     FooterContainer,
     FooterWrap,
@@ -27,6 +27,9 @@ const Footer = () => {
                             </SocialIconLink>
                             <SocialIconLink href="//www.instagram.com/hakunabatataoficial/" target="_blank" arial-label="Instagram">
                                 <FaInstagram />
+                            </SocialIconLink>
+                            <SocialIconLink href="//www.tiktok.com/@hakuna.batata.oficial" target="_blank" arial-label="Facebook">
+                                <FaTiktok/>
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
