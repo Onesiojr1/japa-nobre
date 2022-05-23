@@ -45,20 +45,20 @@ const Navbar = ({toggle}) => {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to="about" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active">Sobre Nós</NavLinks>
+                        <NavLinks to="about" smooth="true" duration={500} spy={true} exact="true" offset={-80} activeclass="active">Sobre Nós</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="Products" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active">Seja um franqueado</NavLinks>
+                        <NavLinks to="Products" smooth="true" duration={500} spy={true} exact="true" offset={-80} activeclass="active">Seja um franqueado</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="Contact" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active">Cardapio</NavLinks>
+                        <NavLinks to="Contact" smooth="true" duration={500} spy={true} exact="true" offset={-80} activeclass="active">Cardapio</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinkr to="/contato" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active">Fale Conosco</NavLinkr>
+                        <NavLinkr to="/contato" smooth="true" duration={500} spy={true} exact="true" offset={-80} activeclass="active">Fale Conosco</NavLinkr>
                     </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <NavLinks to="Stores" smooth={true} duration={500} spy={true} exact={true} offset={-80} activeClass="active"><NavBtnLink>Peça já</NavBtnLink></NavLinks>
+                    <NavLinks to="Stores" smooth="true" duration={500} spy={true} exact="true" offset={-80} activeclass="active"><NavBtnLink>Peça já</NavBtnLink></NavLinks>
                 </NavBtn>
             </NavbarContainer>
         </Nav>

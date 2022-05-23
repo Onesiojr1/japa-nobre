@@ -1,6 +1,7 @@
-import about from '../../images/about-01.jpg'
-import Mg01 from '../../images/MG01.jpeg'
+import about from '../../images/Hakuna.jpeg'
+import Mg01 from '../../images/MapBrazil.png'
 import Menu01 from '../../images/Cardapio.png'
+import Menu02 from '../../images/Cardapio02.png'
 
 export const homeObjOne = {
     id: 'about',
@@ -13,6 +14,7 @@ export const homeObjOne = {
     buttonLabel: 'Seja um franqueado',
     imgStart: false,
     img: about,
+    img2: false,
     alt: 'about01',
     dark: true,
     primary: true,
@@ -32,6 +34,7 @@ export const homeObjTwo = {
     buttonLabel: 'Seja um franqueado',
     imgStart: true,
     img: Mg01,
+    img2: false,
     alt: 'Minas Gerais',
     dark: false,
     primary: false,
@@ -50,7 +53,8 @@ export const homeObjThree = {
     description: 'Clique em "Peça já" e encontre a loja mais proxima de você!',
     buttonLabel: 'Peça já!',
     imgStart: true,
-    img: Menu01,
+    img2: Menu01,
+    img: Menu02,
     alt: 'Cardapio',
     dark: true,
     primary: true,

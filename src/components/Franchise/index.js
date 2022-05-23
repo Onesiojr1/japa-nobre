@@ -20,10 +20,10 @@ const Franchise = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_b1crwic",
-        "HKN_Franquia",
+        "service_ib3kg3j",
+        "HKN_Fran",
         form.current,
-        "PrBTm1UBJiqPMILUn"
+        "u5OU9-oNF2Jc5mX9E"
       )
       .then(
         (result) => {
@@ -56,12 +56,12 @@ const Franchise = () => {
               <FormLabel htmlFor="for">Seu Telefone</FormLabel>
               <FormInput type="number" name="phone" required />
               <FormLabel htmlFor="for">Cidade de Interesse:</FormLabel>
-              <FormInput type="text" name="name" required />
+              <FormInput type="text" name="city" required />
               <FormLabel htmlFor="for"> Qual seu Capital Disponivel:</FormLabel> 
               <FormSelect name="value">
-                <option value="200">Tenho os R$200Mil para iniciar o Negócio</option>
-                <option value="100">Consigo os R$200Mil para iniciar o negócio</option>
-                <option value="300">Tenho ou consigo mais de R$250Mil para iniciar o Negocio</option>
+                <option value="Tenho os R$200mil">Tenho os R$200Mil para iniciar o Negócio</option>
+                <option value="Consigo os R$200mil">Consigo os R$200Mil para iniciar o negócio</option>
+                <option value="Tenho ou consigo mais de R$250mil">Tenho ou consigo mais de R$250Mil para iniciar o Negocio</option>
               </FormSelect>
           
               <FormButton type="submit">Enviar</FormButton>

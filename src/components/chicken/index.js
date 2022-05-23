@@ -25,7 +25,7 @@ const Chicken = () => {
             <FormWrap>
                 <FormContent>
                 <VideoBG>
-                <iframe src="https://www.youtube.com/embed/BfsNfFoA0J0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/R1EfghSqklY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </VideoBG>
                     <Form ref={form} onSubmit={sendEmail}>
                         <FormH1>Receba essa incrivel receita por email</FormH1>
