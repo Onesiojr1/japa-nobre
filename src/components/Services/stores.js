@@ -68,6 +68,13 @@ export const stores = [
   },
 
 {
+      city: "Formiga",
+      address: "Praça Ferreira Pires, 121 - Centro, Formiga - MG",
+      phone: "(37) 3322-8104",
+      link: "https://www.ifood.com.br/delivery/formiga-mg/hakuna-batata-centro/f01787f1-45fc-457d-8c5b-fbe5d46509a7",
+  },
+  
+{
     city: "Florianópolis",
     address: "Rua João Pio Duarte Silva, 289 – Sala 202, Corrego grande",
     phone: "(48) 99917-1278",
@@ -123,6 +130,12 @@ export const stores = [
     link: "https://www.ifood.com.br/delivery/para-de-minas-mg/hakuna-batata-centro/6ccade24-2fe1-4bde-98bd-6634b9fce7df",
 
   },
+  {
+    city: "Passos",
+    address: "Praça Geraldo da Silva Maia, 10 - Centro, Passos - MG",
+    phone: "(35) 99957-9988",
+    link: "https://hakunabatatapassos.saipos.com/home",
+},
 {
     city: "Patos de Minas (Centro)",
     address: "Rua: major Gote, 1530, Centro",
@@ -135,6 +148,13 @@ export const stores = [
     address: "AVENIDA RUI BARBOSA , 201, Centro",
     phone: " (34) 99335-4120",
     link: "https://hakunapatrocinio.saipos.com/home",
+
+  },
+  {
+    city: "Piumhi",
+    address: "Rua Bossuet Costa, 100 - Centro, Piumhi - MG",
+    phone: "(37) 99868-1840",
+    link: "https://hakunabatatapiumhi.saipos.com/home",
 
   },
 {

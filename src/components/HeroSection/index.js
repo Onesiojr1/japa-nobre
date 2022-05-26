@@ -32,7 +32,7 @@ const HeroSection = () => {
         </HeroP>
         <HeroBtnWrapper>
         <ExternalButton to="/invasaodofrango" onMouseEnter={onHover} onMouseLeave={onHover}>
-            Saiba mais! {hover ? <ArrowFoward /> : <ArrowRight />}
+            Acesse a Receita! {hover ? <ArrowFoward /> : <ArrowRight />}
           </ExternalButton>
         </HeroBtnWrapper>
       </HeroContent>

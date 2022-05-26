@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import { Container, FormButton, FormContent, FormInput, FormWrap, FormLabel, FormH1, Form, Icon, FormText } from './SigninElements'
+import { Container, FormButton, FormContent, FormInput, FormWrap, FormLabel, FormH1, Form, Icon, FormText, Text } from './SigninElements'
 
 const SignIn = () => {
     const form = useRef()
@@ -25,6 +25,7 @@ const SignIn = () => {
                 <FormContent>
                     <Form ref={form} onSubmit={sendEmail}>
                         <FormH1>Contato</FormH1>
+                        <Text>O Hakuna Batata é gerido predominantemente por franqueados, queremos saber sua opnião, critica ou sugestão! Seu contato é muito importante para nós!</Text>
                         <FormLabel htmlFor='for'>Nome:</FormLabel>
                         <FormInput type='text' name='name' required />
                         <FormLabel htmlFor='for'>Email:</FormLabel>
