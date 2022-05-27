@@ -83,7 +83,7 @@ export const stores = [
 
 {
     city: "Governador Valadares",
-    address: "Rua João Pio Duarte Silva, 289 – Sala 202, Corrego grande",
+    address: "Avenida, R. 7 de Setembro, 3500 - Centro",
     phone: "(33)3025-3405",
     link: "https://www.ifood.com.br/delivery/governador-valadares-mg/hakuna-batata---gv-shopping-centro/dc41f34d-f9a8-49cd-bed4-efb01708c8c9",
   },
