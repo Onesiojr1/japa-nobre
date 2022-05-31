@@ -120,7 +120,7 @@ export const stores = [
     city: "Nova Serrana",
     address: "Avenida Dom Cabral, numero 30, loja 5, Bairro: jardim do Lagoa",
     phone: " (37) 3225-7930",
-    link: "https://www.ifood.com.br/delivery/nova-serrana-mg/hakuna-batata-nova-serrana-jardim-do-lago/55784238-5e88-4e1e-bbcf-1403ef3a0c05",
+    link: "https://menu.ifood.com.br/55784238-5e88-4e1e-bbcf-1403ef3a0c05",
 
   },
 {
@@ -137,8 +137,8 @@ export const stores = [
     link: "https://hakunabatatapassos.saipos.com/home",
 },
 {
-    city: "Patos de Minas (Centro)",
-    address: "Rua: major Gote, 1530, Centro",
+    city: "Patos de Minas",
+    address: "Olegario Maciel, 63 - Centro",
     phone: " (34) 99929-0950",
     link: "https://hakunapatosdeminas.saipos.com/home",
 
