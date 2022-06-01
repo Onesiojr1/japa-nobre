@@ -140,7 +140,7 @@ export const stores = [
     city: "Patos de Minas",
     address: "Olegario Maciel, 63 - Centro",
     phone: " (34) 99929-0950",
-    link: "https://hakunapatosdeminas.saipos.com/home",
+    link: "https://www.cardapiodigital.io/4db3b537-7fb9-4bcb-96d0-001bbeb6e823/catalog",
 
   },
 {
