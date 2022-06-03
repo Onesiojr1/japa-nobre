@@ -16,7 +16,7 @@ export const stores = [
 {
     city: "Barbacena",
     address: "Rua Marechal Floriano Peixoto, 359, loja 19 e 20 Pontilhão, Bahamas shopping",
-    phone: "(32) 98823-1704",
+    phone: "(32) 99813-9322",
     link: "https://hakunabarbacena.saipos.com/home",
   },
 {
