@@ -16,7 +16,7 @@ export const stores = [
 {
     city: "Barbacena",
     address: "Rua Marechal Floriano Peixoto, 359, loja 19 e 20 Pontilhão, Bahamas shopping",
-    phone: "(32) 98823-1704",
+    phone: "(32) 99813-9322",
     link: "https://hakunabarbacena.saipos.com/home",
   },
 {
@@ -140,7 +140,7 @@ export const stores = [
     city: "Patos de Minas",
     address: "Olegario Maciel, 63 - Centro",
     phone: " (34) 99929-0950",
-    link: "https://hakunapatosdeminas.saipos.com/home",
+    link: "https://www.cardapiodigital.io/4db3b537-7fb9-4bcb-96d0-001bbeb6e823/catalog",
 
   },
 {
