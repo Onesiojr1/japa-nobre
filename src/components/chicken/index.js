@@ -10,15 +10,17 @@ const Chicken = () => {
         e.preventDefault();
         emailjs.sendForm('service_b1crwic', 'HKN_Contact', form.current, 'PrBTm1UBJiqPMILUn')
             .then((result) => {
-                console.log(result.text);
                 swal({
-                    title: 'Email cadastrado com sucesso!',
-                    text: 'Onésio, paga eu!',
+                    title: 'Email enviado com sucesso!',
+                    text: 'Ficamos muito felizes em te enviar nossa receita!',
                     icon: 'success',
-                    timer: 2000
                 })
             }, (error) => {
-                console.log(error.text);
+                swal({
+                    title: 'Ocorreu um erro ao enviar o formulário!',
+                    text: 'Tente novamente mais tarde!',
+                    icon: 'error',
+                })
             });
 
         e.target.reset()

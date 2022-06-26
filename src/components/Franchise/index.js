@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import swal from "sweetalert";
 import {
   Container,
   FormButton,
@@ -27,10 +28,18 @@ const Franchise = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          swal({
+            title: 'Email enviado com sucesso!',
+            text: 'Muito obrigado por nos escolher, logo logo te contactaremos',
+            icon: 'success',
+        })
         },
         (error) => {
-          console.log(error.text);
+          swal({
+            title: 'Ocorreu um erro ao enviar o formulário!',
+            text: 'Tente novamente mais tarde!',
+            icon: 'error',
+        })
         }
       );
 

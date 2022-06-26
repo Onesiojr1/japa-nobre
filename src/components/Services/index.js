@@ -21,7 +21,7 @@ const Services = () => {
         {stores.map((item, index) => {
           if (item.link === "") {
             return (
-              <ServicesCard>
+              <ServicesCard key={item.city}>
                 <ServicesH2>{item.city}</ServicesH2>
                 <ServicesP><MdLocationOn /> {item.address}</ServicesP>
                 <ServicesP><AiFillPhone /> {item.phone}</ServicesP>
@@ -30,7 +30,7 @@ const Services = () => {
             );
           } else {
             return (
-              <ServicesCard>
+              <ServicesCard key={item.city}>
                 <ServicesH2>{item.city}</ServicesH2>
                 <ServicesP><MdLocationOn /> {item.address}</ServicesP>
                 <ServicesP><AiFillPhone />{item.phone}</ServicesP>
