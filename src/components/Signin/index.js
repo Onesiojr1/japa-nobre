@@ -12,13 +12,12 @@ const SignIn = () => {
           .then((result) => {
             swal({
                 title: 'Email enviado com sucesso!',
-                text: 'Muito obrigado por nos escolher, logo logo te contactaremos',
                 icon: 'success',
             })
           }, (error) => {
             swal({
                 title: 'Ocorreu um erro ao enviar o formulário!',
-                text: 'Tente novamente mais tarde!',
+                text: 'Tente novamente mais tarde.',
                 icon: 'error',
             })
           });

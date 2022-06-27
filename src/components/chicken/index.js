@@ -11,14 +11,14 @@ const Chicken = () => {
         emailjs.sendForm('service_b1crwic', 'HKN_Contact', form.current, 'PrBTm1UBJiqPMILUn')
             .then((result) => {
                 swal({
-                    title: 'Email enviado com sucesso!',
-                    text: 'Ficamos muito felizes em te enviar nossa receita!',
+                    title: 'Receita enviada com sucesso!',
+                    text: 'Acesse seu email e experimente essa delícia!',
                     icon: 'success',
                 })
             }, (error) => {
                 swal({
                     title: 'Ocorreu um erro ao enviar o formulário!',
-                    text: 'Tente novamente mais tarde!',
+                    text: 'Tente novamente mais tarde.',
                     icon: 'error',
                 })
             });
