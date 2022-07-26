@@ -210,13 +210,13 @@ export const stores = [
     city: "Viçosa – Matriz",
     address: "Av. P.H. Rolfs, 251 – Loja A – Centro",
     phone: " (31) 3891-9142",
-    link: "https://deliverydireto.com.br/hakunabatata/vicosa?dd=menu",
+    link: "https://hakunavicosa.saipos.com",
 
   },
 {
     city: "Visconde do Rio Branco",
     address: "Praça 28 de setembro, 552 – Loja 10 – Centro",
-    phone: " (32) 3406-0050",
+    phone: " (32) 99851-1098",
     link: "https://hakunabatatavrb.saipos.com/home",
 
   },
