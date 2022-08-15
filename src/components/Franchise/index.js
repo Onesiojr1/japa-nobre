@@ -30,14 +30,14 @@ const Franchise = () => {
         (result) => {
           swal({
             title: 'Email enviado com sucesso!',
-            text: 'Muito obrigado por nos escolher, logo logo te contactaremos',
+            text: 'Em breve, um de nosso consultores entrará em contato com todas as informações!',
             icon: 'success',
         })
         },
         (error) => {
           swal({
-            title: 'Ocorreu um erro ao enviar o formulário!',
-            text: 'Tente novamente mais tarde!',
+            title: 'Ocorreu um erro ao enviar o formulário',
+            text: 'Tente novamente mais tarde.',
             icon: 'error',
         })
         }
