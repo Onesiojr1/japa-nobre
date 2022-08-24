@@ -1,19 +1,29 @@
 {
   "files": {
-    "main.css": "/japa-nobre/static/css/main.d7da34c1.css",
-    "main.js": "/japa-nobre/static/js/main.362b2292.js",
-    "static/media/video.mp4": "/japa-nobre/static/media/video.f3055bcdfcbc1605ff81.mp4",
-    "static/media/Cardapio02.png": "/japa-nobre/static/media/Cardapio02.0decf4dab0ac94edda18.png",
-    "static/media/Cardapio.png": "/japa-nobre/static/media/Cardapio.d832f341f72c54550912.png",
-    "static/media/MapBrazil.png": "/japa-nobre/static/media/MapBrazil.f7cf0f5b07d76422e13c.png",
-    "static/media/Hakuna.jpeg": "/japa-nobre/static/media/Hakuna.10edfcda5b1be5884b10.jpeg",
-    "static/media/logo.png": "/japa-nobre/static/media/logo.4ab19f85f9317ac2f104.png",
-    "index.html": "/japa-nobre/index.html",
-    "main.d7da34c1.css.map": "/japa-nobre/static/css/main.d7da34c1.css.map",
-    "main.362b2292.js.map": "/japa-nobre/static/js/main.362b2292.js.map"
+    "main.css": "/static/css/main.f73709cf.css",
+    "main.js": "/static/js/main.770d9450.js",
+    "static/media/video.mp4": "/static/media/video.f3055bcdfcbc1605ff81.mp4",
+    "static/media/about-02.jpg": "/static/media/about-02.c9e01b010d58630c7d6a.jpg",
+    "static/media/Cardapio02.png": "/static/media/Cardapio02.0decf4dab0ac94edda18.png",
+    "static/media/Cardapio.png": "/static/media/Cardapio.d832f341f72c54550912.png",
+    "static/media/BG-img.jpg": "/static/media/BG-img.ea0a572bb08a8987d9aa.jpg",
+    "static/media/MapBrazil.png": "/static/media/MapBrazil.f7cf0f5b07d76422e13c.png",
+    "static/media/Hakuna.jpeg": "/static/media/Hakuna.10edfcda5b1be5884b10.jpeg",
+    "static/media/logo.png": "/static/media/logo.4ab19f85f9317ac2f104.png",
+    "static/media/Pessoa1.png": "/static/media/Pessoa1.3d1f3c8a2b06561253a7.png",
+    "static/media/Voz001.mp3": "/static/media/Voz001.4904b3aa20a17c770d3b.mp3",
+    "static/media/employees.png": "/static/media/employees.7bc3190287b7fd0beff2.png",
+    "static/media/location.png": "/static/media/location.d45f18b2594bbc4609e8.png",
+    "static/media/coach.png": "/static/media/coach.bdddb94686b982772d13.png",
+    "static/media/email.png": "/static/media/email.9118b05cc870eed77115.png",
+    "static/media/burguer.png": "/static/media/burguer.e3ca42a901449386cc69.png",
+    "static/media/seller.png": "/static/media/seller.963ed0c649c7d1efe5e4.png",
+    "index.html": "/index.html",
+    "main.f73709cf.css.map": "/static/css/main.f73709cf.css.map",
+    "main.770d9450.js.map": "/static/js/main.770d9450.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7da34c1.css",
-    "static/js/main.362b2292.js"
+    "static/css/main.f73709cf.css",
+    "static/js/main.770d9450.js"
   ]
 }
