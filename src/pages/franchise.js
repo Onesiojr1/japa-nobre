@@ -1,10 +1,22 @@
 import React from 'react'
-import Franchise from '../components/Franchise'
+import FormSection from '../components/landingPage/formSection'
+import About from '../components/landingPage/about'
+import Numbers from '../components/landingPage/numbers'
+import Differentials from '../components/landingPage/differentials'
+import Support from '../components/landingPage/support'
+import Review from '../components/landingPage/review'
 
 
 const FranchisePage = () => {
   return (
-    <div><Franchise /></div>
+  <>
+  <FormSection />
+  <About />
+  <Numbers />
+  <Differentials />
+  <Support />
+  <Review />
+  </>
   )
 }
 
