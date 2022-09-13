@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 export const AboutContainer = styled.div`
   background: #ffcc00;
   display: flex;
-  padding: 0 30px;
-  height: 900px;
+  padding: 0 20px;
+  height: 600px;
   justify-content: center;
   position: relative;
   z-index: 1;
@@ -24,6 +24,10 @@ export const AboutContainer = styled.div`
       ),
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: 450px;
   }
 `;
 
@@ -56,7 +60,7 @@ export const AboutContent = styled.div`
   align-items: center;
 `;
 export const AboutH1 = styled.h1`
-  padding-top: 100px;
+  padding: 10px;
   color: #fff;
   font-size: 48px;
   text-align: center;
@@ -73,13 +77,7 @@ export const InfoRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-  grid-template-areas: ${({ imgStart }) =>
-    imgStart ? `'col2 col1'` : `'col1 col2'`};
 
-  @media screen and (max-width: 768px) {
-    grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
-  }
 `;
 
 export const Column1 = styled.div`

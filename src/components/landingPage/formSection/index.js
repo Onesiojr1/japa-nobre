@@ -79,27 +79,10 @@ const FormSection = () => {
                   <FormH1>Saiba como ser um franquado Hakuna Batata</FormH1>
                   <FormLabel htmlFor="for">Nome:</FormLabel>
                   <FormInput type="text" name="name" required />
-                  <FormLabel htmlFor="for">Email:</FormLabel>
-                  <FormInput type="email" name="email" required />
                   <FormLabel htmlFor="for">Seu Telefone</FormLabel>
                   <FormInput type="number" name="phone" required />
                   <FormLabel htmlFor="for">Cidade de Interesse:</FormLabel>
                   <FormInput type="text" name="city" required />
-                  <FormLabel htmlFor="for">
-                    {" "}
-                    Qual seu Capital Disponivel:
-                  </FormLabel>
-                  <FormSelect name="value">
-                    <option value="Tenho os R$200mil">
-                      Tenho os R$200Mil para iniciar o Negócio
-                    </option>
-                    <option value="Consigo os R$200mil">
-                      Consigo os R$200Mil para iniciar o negócio
-                    </option>
-                    <option value="Tenho ou consigo mais de R$250mil">
-                      Tenho ou consigo mais de R$250Mil para iniciar o Negocio
-                    </option>
-                  </FormSelect>
                   <FormButton type="submit">Enviar</FormButton>
                 </Form>
               </FormContent>

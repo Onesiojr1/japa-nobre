@@ -132,6 +132,7 @@ export const Form = styled.form`
   padding: 50px 22px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  width: 482px;
 
   @media screen and (max-width: 530px) {
     padding: 32px 32px;

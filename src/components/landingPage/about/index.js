@@ -6,8 +6,6 @@ import {
   AboutH1,
   AboutContent,
   InfoRow,
-  Column1,
-  Column2,
   AboutLi,
   BtnWrap,
   ButtonForm
@@ -23,24 +21,18 @@ const About = () => {
       <AboutContent>
         <AboutH1>Principais Razões para investir</AboutH1>
         <InfoRow>
-          <Column1>
             <ul type="disc">
               <AboutLi>
-                Baixa metragem necessária, reduzindo custo de operação
+                Baixo custo de operação
               </AboutLi>
-              <AboutLi>Baixo investimento inicial</AboutLi>
               <AboutLi>
                 Mix de produtos variados que abrangem todas as horas do dia
                 (almoço, lanche e jantar)
               </AboutLi>
-              <AboutLi>Retorno do capital, em média, 18 meses</AboutLi>
+              <AboutLi>Retorno do capital, em média, 24 meses</AboutLi>
               <AboutLi>Chance de crescimento junto à marca</AboutLi>
               <AboutLi>Foco no lucro do franqueado</AboutLi>
             </ul>
-          </Column1>
-          <Column2>
-            <AboutH1>Principais Razões para investir</AboutH1>
-          </Column2>
         </InfoRow>
         <BtnWrap>
           <ButtonForm
