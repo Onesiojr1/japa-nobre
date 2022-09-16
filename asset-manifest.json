@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/japa-nobre/static/css/main.f73709cf.css",
-    "main.js": "/japa-nobre/static/js/main.2606d4f9.js",
+    "main.js": "/japa-nobre/static/js/main.59424667.js",
     "static/media/video.mp4": "/japa-nobre/static/media/video.f3055bcdfcbc1605ff81.mp4",
     "static/media/Cardapio02.png": "/japa-nobre/static/media/Cardapio02.0decf4dab0ac94edda18.png",
     "static/media/Cardapio.png": "/japa-nobre/static/media/Cardapio.d832f341f72c54550912.png",
+    "static/media/Pessoa2.png": "/japa-nobre/static/media/Pessoa2.0b799ae0004093bb10a6.png",
+    "static/media/Pessoa1.png": "/japa-nobre/static/media/Pessoa1.f02e08b37cb5bcadee10.png",
     "static/media/MapBrazil.png": "/japa-nobre/static/media/MapBrazil.f7cf0f5b07d76422e13c.png",
+    "static/media/vasquinho.mp3": "/japa-nobre/static/media/vasquinho.b40a10158d85aee25e3b.mp3",
+    "static/media/thais.mp3": "/japa-nobre/static/media/thais.9c0d096882a4f6cdb940.mp3",
     "static/media/Hakuna.jpeg": "/japa-nobre/static/media/Hakuna.10edfcda5b1be5884b10.jpeg",
     "static/media/logo.png": "/japa-nobre/static/media/logo.4ab19f85f9317ac2f104.png",
     "static/media/about-04.jpg": "/japa-nobre/static/media/about-04.637ce79444e4ffbd89be.jpg",
-    "static/media/Pessoa1.png": "/japa-nobre/static/media/Pessoa1.3d1f3c8a2b06561253a7.png",
     "static/media/about-05.jpg": "/japa-nobre/static/media/about-05.d47740d3b6e57a38194f.jpg",
     "static/media/about-03.jpg": "/japa-nobre/static/media/about-03.7c94b79dcd4d58aa1499.jpg",
-    "static/media/Voz001.mp3": "/japa-nobre/static/media/Voz001.4904b3aa20a17c770d3b.mp3",
     "static/media/employees.png": "/japa-nobre/static/media/employees.7bc3190287b7fd0beff2.png",
     "static/media/location.png": "/japa-nobre/static/media/location.d45f18b2594bbc4609e8.png",
     "static/media/coach.png": "/japa-nobre/static/media/coach.bdddb94686b982772d13.png",
@@ -21,10 +23,10 @@
     "static/media/seller.png": "/japa-nobre/static/media/seller.963ed0c649c7d1efe5e4.png",
     "index.html": "/japa-nobre/index.html",
     "main.f73709cf.css.map": "/japa-nobre/static/css/main.f73709cf.css.map",
-    "main.2606d4f9.js.map": "/japa-nobre/static/js/main.2606d4f9.js.map"
+    "main.59424667.js.map": "/japa-nobre/static/js/main.59424667.js.map"
   },
   "entrypoints": [
     "static/css/main.f73709cf.css",
-    "static/js/main.2606d4f9.js"
+    "static/js/main.59424667.js"
   ]
 }
