@@ -24,6 +24,10 @@ export const ReviewContainer = styled.div`
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
   }
+
+  @media screen and (max-width: 1000px) {
+    height: 1100px;
+  }
 `;
 
 export const ReviewBG = styled.div`
@@ -35,6 +39,10 @@ export const ReviewBG = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+
+  @media screen and (max-width: 1000px) {
+    height: 1100px;
+  }
 `;
 
 export const ImgBG = styled.img`
@@ -73,7 +81,7 @@ export const ReviewWrap = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;

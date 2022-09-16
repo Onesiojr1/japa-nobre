@@ -12,9 +12,11 @@ import {
   ReviewWrap,
 } from "./reviewElements";
 import img from "../../../images/about-04.jpg";
-import perfil from "../../../images/Pessoa1.png"
+import perfil1 from "../../../images/Pessoa1.png"
+import perfil2 from "../../../images/Pessoa2.png"
 import { BtnWrap, ButtonForm } from "../about/aboutElements";
-import audio from "../../../videos/Voz001.mp3"
+import audio1 from "../../../videos/vasquinho.mp3"
+import audio2 from "../../../videos/thais.mp3"
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 
@@ -43,10 +45,16 @@ const Review = () => {
         </BtnWrap>
         <ReviewWrap>
             <ReviewCard>
-                <ReviewIcon src={perfil} alt='BG' />
-                <ReviewH2>Christine</ReviewH2>
-                <ReviewP>Franqueado da cidade de Ubá</ReviewP>
-                <AudioPlayer src={audio} showJumpControls={false} showFilledProgress={false} customAdditionalControls={[]} customVolumeControls={[]} />
+                <ReviewIcon src={perfil1} alt='BG' />
+                <ReviewH2>vasquinho</ReviewH2>
+                <ReviewP>Franqueado da cidade de Muriaé</ReviewP>
+                <AudioPlayer src={audio1} showJumpControls={false} showFilledProgress={false} customAdditionalControls={[]} customVolumeControls={[]} />
+            </ReviewCard>
+            <ReviewCard>
+                <ReviewIcon src={perfil2} alt='BG' />
+                <ReviewH2>Thais</ReviewH2>
+                <ReviewP>Franqueada da cidade de Cataguases</ReviewP>
+                <AudioPlayer src={audio2} showJumpControls={false} showFilledProgress={false} customAdditionalControls={[]} customVolumeControls={[]} />
             </ReviewCard>
         </ReviewWrap>
       </ReviewContent>
