@@ -15,7 +15,6 @@ import {
   FormH1,
   FormLabel,
   FormInput,
-  FormSelect,
   FormButton,
   Icon,
   FormWrap,
