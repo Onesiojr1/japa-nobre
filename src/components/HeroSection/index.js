@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4'
-import {ExternalButton} from '../ButtonElement'
+// import {ExternalButton} from '../ButtonElement'
 import {
   HeroContainer,
   HeroBG,
@@ -8,17 +8,17 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
-  HeroBtnWrapper,
-  ArrowFoward,
-  ArrowRight
+  // HeroBtnWrapper,
+  // ArrowFoward,
+  // ArrowRight
 } from './HeroElements'
 
 const HeroSection = () => {
-  const [hover, setHover] = useState(false)
+  // const [hover, setHover] = useState(false)
 
-  const onHover = () => {
-    setHover(!hover)
-  }
+  // const onHover = () => {
+  //   setHover(!hover)
+  // }
 
   return (
     <HeroContainer>
@@ -26,15 +26,15 @@ const HeroSection = () => {
         <VideoBG autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBG>
       <HeroContent>
-        <HeroH1>A INVASÃO DO FRANGO</HeroH1>
+        <HeroH1>A novidade que faltava: Combo Kids</HeroH1>
         <HeroP>
-          Uma receita nada secreta!
+        Com brinde exclusivo!
         </HeroP>
-        <HeroBtnWrapper>
+        {/* <HeroBtnWrapper>
         <ExternalButton to="/invasaodofrango" onMouseEnter={onHover} onMouseLeave={onHover}>
             Acesse a Receita! {hover ? <ArrowFoward /> : <ArrowRight />}
           </ExternalButton>
-        </HeroBtnWrapper>
+        </HeroBtnWrapper> */}
       </HeroContent>
     </HeroContainer>
   )
