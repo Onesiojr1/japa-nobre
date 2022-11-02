@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Video from '../../videos/video.mp4'
 // import {ExternalButton} from '../ButtonElement'
 import {
