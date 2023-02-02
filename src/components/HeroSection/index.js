@@ -1,5 +1,5 @@
 import React from 'react'
-import Video from '../../videos/video.mp4'
+import Video from '../../videos/video2.mp4'
 // import {ExternalButton} from '../ButtonElement'
 import {
   HeroContainer,
@@ -26,9 +26,9 @@ const HeroSection = () => {
         <VideoBG autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBG>
       <HeroContent>
-        <HeroH1>A novidade que faltava: Combo Kids</HeroH1>
+        <HeroH1>HAKUNESE</HeroH1>
         <HeroP>
-        Com brinde exclusivo!
+          A exclusiva maionese do Hakuna!
         </HeroP>
         {/* <HeroBtnWrapper>
         <ExternalButton to="/invasaodofrango" onMouseEnter={onHover} onMouseLeave={onHover}>

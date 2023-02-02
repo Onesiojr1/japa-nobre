@@ -53,15 +53,15 @@ export const stores = [
     link: "https://hakunabatatacataguases.saipos.com/home",
   },
 
-{
-    city: "Divinópolis (Centro)",
-    address: "Rua Antônio Olímpio de Morais, 749 – Centro",
-    phone: "(37) 3112-2313",
-    link: "https://www.ifood.com.br/delivery/divinopolis-mg/hakuna-batata-centro/5911db1c-f12f-42af-96b7-05336f8a54f9",
+  {
+    city: "Contagem",
+    address: "Avenida General David Sarnoff, 5160 - loja 30 A mznino1 - Cidade Industrial",
+    phone: "Indisponível",
+    link: "https://www.ifood.com.br/delivery/contagem-mg/hakuna-contagem-cidade-industrial/9d62e233-8f1e-4954-ab88-c73b89ae5e53",
   },
 
 {
-    city: "Divinópolis – Shopping Pátio Divinópolis",
+    city: "Divinópolis – Shopping",
     address: "Rua Moacir Jose Leite, Loja 277, 100 – Santa Clara",
     phone: "37 9169-3937",
     link: "https://www.ifood.com.br/delivery/divinopolis-mg/hakuna-batata-shoping-jardim-nova-america/872f587a-c194-4b6a-806c-5fc7ceb33321",
@@ -103,10 +103,17 @@ export const stores = [
 
   },
 {
-    city: "Juiz de Fora",
+    city: "Juiz de Fora - Bahamas",
     address: "AV. Barão do rio branco, 3760 – Loja 17",
     phone: " (32) 99957-9348",
     link: "https://www.ifood.com.br/delivery/juiz-de-fora-mg/hakuna-batata-alto-dos-passos/123eee8d-6020-4341-a6d4-146e2116a4c1",
+
+  },
+  {
+    city: "Juiz de Fora - Shopping Jardim Norte",
+    address: "Avenida Brasil, 6345 - Loja 2028A - Mariano Procópio",
+    phone: " (32) 99994-5366",
+    link: "https://www.ifood.com.br/delivery/juiz-de-fora-mg/hakuna-jardim-norte-mariano-procopio/ca3481af-97c6-443b-a0ce-1f308c7b3cca?utm_medium=share",
 
   },
 {
@@ -171,6 +178,15 @@ export const stores = [
     link: "https://www.ifood.com.br/delivery/sao-joao-del-rei-mg/hakuna-batata-centro/cc7efd98-ca30-4a4b-89d3-ae1500dac676",
 
   },
+
+  {
+    city: "São Sebastião do Paraíso",
+    address: "Comendador João Alves, 12B - CENTRO",
+    phone: "(35) 99916-2419",
+    link: "https://Hakunassp.saipos.com",
+
+  },
+
 {
     city: "Santo Ângelo - RS ",
     address: "Rua Sete de Setembro, 1011 Centro",

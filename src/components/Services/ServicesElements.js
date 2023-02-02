@@ -78,6 +78,7 @@ export const ServicesH2 = styled.h2`
 export const ServicesP = styled.p`
   font-size: 1rem;
   text-align: center;
+  padding-top: 5px;
 `;
 export const ServicesBtn = styled.button`
   border-radius: 50px;
