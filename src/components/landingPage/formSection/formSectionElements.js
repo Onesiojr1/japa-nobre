@@ -218,3 +218,12 @@ export const FormWrap = styled.div`
     height: 80%;
   }
 `;
+
+export const Logo = styled.img`
+  width: 400px;
+  margin-bottom: 5px;
+
+  @media screen and (max-width: 400px) {
+    width: 200px;
+  }
+`;

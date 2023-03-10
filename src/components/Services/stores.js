@@ -153,7 +153,7 @@ export const stores = [
 {
     city: "Patrocinio",
     address: "AVENIDA RUI BARBOSA , 201, Centro",
-    phone: " (34) 99335-4120",
+    phone: " (34) 9941-3815",
     link: "https://hakunapatrocinio.saipos.com/home",
 
   },
@@ -184,14 +184,6 @@ export const stores = [
     address: "Comendador João Alves, 12B - CENTRO",
     phone: "(35) 99916-2419",
     link: "https://Hakunassp.saipos.com",
-
-  },
-
-{
-    city: "Santo Ângelo - RS ",
-    address: "Rua Sete de Setembro, 1011 Centro",
-    phone: " (55) 98134-2134",
-    link: "https://hakunasantoangelo.saipos.com/home",
 
   },
 {

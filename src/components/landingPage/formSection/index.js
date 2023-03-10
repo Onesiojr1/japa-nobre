@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import swal from "sweetalert";
+import logoImg from "../../../images/logo.png";
 import {
   FormSectionContainer,
   FormSectionBG,
@@ -18,6 +19,7 @@ import {
   FormButton,
   Icon,
   FormWrap,
+  Logo
 } from "./formSectionElements";
 import img from "../../../images/about-03.jpg";
 
@@ -63,7 +65,7 @@ const FormSection = () => {
         <ImgBG src={img} alt="BG" />
       </FormSectionBG>
       <FormSectionContent>
-        <Icon to="/">Hakuna Batata</Icon>
+        <Icon to="/"><Logo src={logoImg} alt="Hakuna Batata"/></Icon>
         <InfoRow>
           <Column1>
             <FormSectionH1>

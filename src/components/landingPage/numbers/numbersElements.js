@@ -50,8 +50,18 @@ export const ServicesCard = styled.div`
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
+    background: #000;
     cursor: pointer;
   }
+
+  &:hover h2{
+    color: #ffcc00;
+  }
+
+  &:hover p{
+    color: #ffcc00;
+  }
+  
 `;
 
 export const ServicesIcon = styled.img`
