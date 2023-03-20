@@ -116,6 +116,13 @@ export const stores = [
     link: "https://www.ifood.com.br/delivery/juiz-de-fora-mg/hakuna-jardim-norte-mariano-procopio/ca3481af-97c6-443b-a0ce-1f308c7b3cca?utm_medium=share",
 
   },
+  {
+    city: "Lagoa da Prata",
+    address: "AV BENEDITO VALADARES, 937, LOJA 02 - Centro",
+    phone: "(37) 9844-2003",
+    link: "",
+
+  },
 {
     city: "Muriaé",
     address: "Rua Coronel Domiciano, 43 – Centro",
