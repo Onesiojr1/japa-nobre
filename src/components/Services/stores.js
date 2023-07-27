@@ -84,7 +84,7 @@ export const stores = [
 {
     city: "Governador Valadares",
     address: "Avenida, R. 7 de Setembro, 3500 - Centro",
-    phone: "(33)3025-3405",
+    phone: "(33) 99700-3531",
     link: "https://www.ifood.com.br/delivery/governador-valadares-mg/hakuna-batata---gv-shopping-centro/dc41f34d-f9a8-49cd-bed4-efb01708c8c9",
   },
 
@@ -120,7 +120,7 @@ export const stores = [
     city: "Lagoa da Prata",
     address: "AV BENEDITO VALADARES, 937, LOJA 02 - Centro",
     phone: "(37) 9844-2003",
-    link: "",
+    link: "https://hakunalagoadaprata.saipos.com/home",
 
   },
 {
@@ -231,7 +231,7 @@ export const stores = [
 {
     city: "Visconde do Rio Branco",
     address: "Praça 28 de setembro, 552 – Loja 10 – Centro",
-    phone: " (32) 99851-1098",
+    phone: " (32) 99833-9344",
     link: "https://hakunabatatavrb.saipos.com/home",
 
   },
