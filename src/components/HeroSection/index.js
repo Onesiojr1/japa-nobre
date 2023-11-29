@@ -1,14 +1,14 @@
 import React, {useState, useEffect} from 'react'
-import Video from '../../videos/video3.mp4'
-import VideoMobile from '../../videos/video3Mobile.mp4'
+import Video from '../../videos/video4.mp4'
+import VideoMobile from '../../videos/video4Mobile.mp4'
 // import {ExternalButton} from '../ButtonElement'
 import {
   HeroContainer,
   HeroBG,
   VideoBG,
   HeroContent,
-  HeroH1,
-  HeroP,
+  // HeroH1,
+  // HeroP,
   // HeroBtnWrapper,
   // ArrowFoward,
   // ArrowRight
@@ -40,7 +40,7 @@ const HeroSection = () => {
       }
       </HeroBG>
       <HeroContent>
-        <HeroH1>EXPERIMENTE!</HeroH1>
+        {/* <HeroH1>EXPERIMENTE!</HeroH1> */}
         {/* <HeroP>
           A exclusiva maionese do Hakuna!
         </HeroP> */}

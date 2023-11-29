@@ -75,24 +75,10 @@ export const stores = [
   },
   
 {
-    city: "Florianópolis",
-    address: "Rua João Pio Duarte Silva, 289 – Sala 202, Corrego grande",
-    phone: "(48) 99917-1278",
-    link: "https://www.ifood.com.br/delivery/florianopolis-sc/hakuna-batata-vargem-do-bom-jesus/c98872a8-14eb-4736-9a8e-014e625ced11",
-  },
-
-{
     city: "Governador Valadares",
     address: "Avenida, R. 7 de Setembro, 3500 - Centro",
     phone: "(33) 99700-3531",
     link: "https://www.ifood.com.br/delivery/governador-valadares-mg/hakuna-batata---gv-shopping-centro/dc41f34d-f9a8-49cd-bed4-efb01708c8c9",
-  },
-
-{
-    city: "Itaúna",
-    address: "Rua Professor Francisco Santiago, 360 – Centro",
-    phone: " (37) 3402-1801",
-    link: "https://www.ifood.com.br/delivery/itauna-mg/hakuna-batata-centro/a35f9537-9c19-48ca-b01c-6ee981d7523a",
   },
 
 {

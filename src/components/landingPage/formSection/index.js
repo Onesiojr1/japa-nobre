@@ -77,7 +77,7 @@ const FormSection = () => {
             <FormWrap>
               <FormContent>
                 <Form ref={form} onSubmit={sendEmail}>
-                  <FormH1>Saiba como ser um franquado Hakuna Batata</FormH1>
+                  <FormH1>Saiba como ser um franqueado Hakuna Batata</FormH1>
                   <FormLabel htmlFor="for">Nome:</FormLabel>
                   <FormInput type="text" name="name" required />
                   <FormLabel htmlFor="for">Seu Telefone</FormLabel>
