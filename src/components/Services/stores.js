@@ -60,13 +60,19 @@ export const stores = [
     link: "https://www.ifood.com.br/delivery/contagem-mg/hakuna-contagem-cidade-industrial/9d62e233-8f1e-4954-ab88-c73b89ae5e53",
   },
 
-{
+  {
+    city: "Contagem - Big Shopping",
+    address: "Av. João César de Oliveira, 1275 - Eldorado.",
+    phone: "(31) 97203-8307",
+    link: "https://www.ifood.com.br/delivery/contagem-mg/hakuna-batata-big-shopping-eldorado/17f439be-d135-4f22-a8d8-cb5f13bc1a5e",
+  },
+
+  {
     city: "Divinópolis – Shopping",
     address: "Rua Moacir Jose Leite, Loja 277, 100 – Santa Clara",
     phone: "37 9169-3937",
     link: "https://www.ifood.com.br/delivery/divinopolis-mg/hakuna-batata-shoping-jardim-nova-america/872f587a-c194-4b6a-806c-5fc7ceb33321",
   },
-
 {
       city: "Formiga",
       address: "Praça Ferreira Pires, 121 - Centro, Formiga - MG",
@@ -91,15 +97,22 @@ export const stores = [
 {
     city: "Juiz de Fora - Bahamas",
     address: "AV. Barão do rio branco, 3760 – Loja 17",
-    phone: " (32) 99957-9348",
+    phone: "(32) 99957-9348",
     link: "https://www.ifood.com.br/delivery/juiz-de-fora-mg/hakuna-batata-alto-dos-passos/123eee8d-6020-4341-a6d4-146e2116a4c1",
 
   },
   {
     city: "Juiz de Fora - Shopping Jardim Norte",
     address: "Avenida Brasil, 6345 - Loja 2028A - Mariano Procópio",
-    phone: " (32) 99994-5366",
+    phone: "(32) 99994-5366",
     link: "https://www.ifood.com.br/delivery/juiz-de-fora-mg/hakuna-jardim-norte-mariano-procopio/ca3481af-97c6-443b-a0ce-1f308c7b3cca?utm_medium=share",
+
+  },
+  {
+    city: "Juiz de Fora - Barão do Retiro",
+    address: "Av Doutor Francisco Alves de Assis - Bahamas MIX",
+    phone: "Indisponível",
+    link: "",
 
   },
   {
