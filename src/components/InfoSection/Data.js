@@ -30,7 +30,7 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topLine: 'Seja um franqueado',
     headLine: 'A maior franquia de restaurantes nascida em Minas Gerais!',
-    description: 'Um cardápio pensado faz toda a diferença na hora de escolher uma franquia. O Hakuna batata trabalha com produtos que vendem durante todo o tempo, ou seja, temos produtos para o dia, como pratos executivos. E para a noite temos hambúrguer artesanal, porções e batatas recheadas e porque não um burger de dia ou um prato de noite? Servimos tudo a todo tempo!! Esse diferencial, faz aumentar as chances de sucesso do negócio fazendo assim, nosso franqueado faturar nos períodos de maiores vendas, tanto de balcão quanto de delivery. Otimizando todos os horários do dia!',
+    description: 'Um cardápio pensado faz toda a diferença na hora de escolher uma franquia. O Hakuna Batata trabalha com produtos que vendem durante todo o tempo, ou seja, temos produtos para o dia, como pratos executivos, e para a noite, como hambúrgueres artesanais, porções e batatas recheadas. Mas por que não um burger de dia ou um prato pela noite? Aqui servimos tudo a todo tempo! Esse diferencial aumenta as chances de sucesso do negócio, assim, fazendo nosso franqueado faturar nos períodos de maiores vendas, tanto de balcão quanto de delivery, otimizando todos os horários do dia!',
     buttonLabel: 'Seja um franqueado',
     imgStart: true,
     img: Mg01,

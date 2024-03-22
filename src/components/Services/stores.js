@@ -19,9 +19,15 @@ export const stores = [
     phone: "(32) 99813-9322",
     link: "https://hakunabarbacena.saipos.com/home",
   },
+  {
+    city: "Belo Horizonte - Barreiro",
+    address: "Av. Afonso Vaz de Melo, 640, Barreiro - Belo Horizonte MG",
+    phone: "(31) 9720-1610",
+    link: "",
+  },
 {
-    city: "Belo Horizonte (Savassi)",
-    address: "Rua Pernambuco 1097 Loja 3 Savassi – Belo Horizonte MG",
+    city: "Belo Horizonte - Savassi",
+    address: "Rua Pernambuco 1097 Loja 3, Savassi – Belo Horizonte MG",
     phone: "(31) 3785-1097",
     link: "https://menu.ifood.com.br/hakunabatatasavassi",
   },
@@ -83,7 +89,7 @@ export const stores = [
 {
     city: "Governador Valadares",
     address: "Avenida, R. 7 de Setembro, 3500 - Centro",
-    phone: "(33) 99700-3531",
+    phone: "(33) 9934-1731",
     link: "https://www.ifood.com.br/delivery/governador-valadares-mg/hakuna-batata---gv-shopping-centro/dc41f34d-f9a8-49cd-bed4-efb01708c8c9",
   },
 
@@ -118,7 +124,7 @@ export const stores = [
   {
     city: "Lagoa da Prata",
     address: "AV BENEDITO VALADARES, 937, LOJA 02 - Centro",
-    phone: "(37) 9844-2003",
+    phone: "(37) 98472-9463",
     link: "https://hakunalagoadaprata.saipos.com/home",
 
   },
