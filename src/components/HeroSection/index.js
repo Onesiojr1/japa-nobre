@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import Video from '../../videos/video4.mp4'
-import VideoMobile from '../../videos/video4Mobile.mp4'
+import Video from '../../videos/video5.mp4'
+import VideoMobile from '../../videos/video5Mobile.mp4'
 // import {ExternalButton} from '../ButtonElement'
 import {
   HeroContainer,
@@ -35,8 +35,8 @@ const HeroSection = () => {
     <HeroContainer>
       <HeroBG>{
         isMobile 
-          ? <VideoBG autoPlay loop muted src={Video} type='video/mp4' />
-          : <VideoBG autoPlay loop muted src={VideoMobile} type='video/mp4' />
+          ? <VideoBG autoPlay loop muted src={VideoMobile} type='video/mp4' />
+          : <VideoBG autoPlay loop muted src={Video} type='video/mp4' />
       }
       </HeroBG>
       <HeroContent>

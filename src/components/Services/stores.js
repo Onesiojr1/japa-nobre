@@ -25,6 +25,12 @@ export const stores = [
     phone: "(31) 9720-1610",
     link: "",
   },
+  {
+    city: "Belo Horizonte – Coração Eucaristico",
+    address: "Rua Coração Eucaristico, 311",
+    phone: "Indisponível",
+    link: "",
+  },
 {
     city: "Belo Horizonte - Savassi",
     address: "Rua Pernambuco 1097 Loja 3, Savassi – Belo Horizonte MG",
@@ -128,10 +134,22 @@ export const stores = [
     link: "https://hakunalagoadaprata.saipos.com/home",
 
   },
+  {
+    city: "Manhuaçu",
+    address: "Av Getúlio Vargas, 730 - Coqueiro",
+    phone: "(33) 9876-5212",
+    link: "https://hakunamanhuacu.saipos.com/home",
+  },
+  {
+    city: "Montes Claros",
+    address: "Av Donato Quintino, 90 - Loja 07A",
+    phone: "Indisponível",
+    link: "",
+  },
 {
     city: "Muriaé",
     address: "Rua Coronel Domiciano, 43 – Centro",
-    phone: " (32) 3722-4258",
+    phone: "(32) 3722-4258",
     link: "https://hakunabatata.saipos.com/hakuna-batata-muriae",
 
   },
@@ -139,8 +157,14 @@ export const stores = [
     city: "Nova Serrana",
     address: "Avenida Dom Cabral, numero 30, loja 5, Bairro: jardim do Lagoa",
     phone: " (37) 3225-7930",
-    link: "https://menu.ifood.com.br/55784238-5e88-4e1e-bbcf-1403ef3a0c05",
+    link: "https://hakunanovaserrana.saipos.com/home",
 
+  },
+  {
+    city: "Oliveira",
+    address: "PC Doutor Jose Ribeiro Silva, 93 - Centro",
+    phone: "(37) 99942-6924",
+    link: "https://hakunabatataoliveira.saipos.com/home",
   },
 {
     city: "Para de Minas",
@@ -176,6 +200,12 @@ export const stores = [
     link: "https://hakunabatatapiumhi.saipos.com/home",
 
   },
+  {
+    city: "Poços de caldas",
+    address: "Av. Silvio Monteiro dos Santos, 180 - Vale dos Antas",
+    phone: "Indisponível",
+    link: "",
+  },
 {
     city: "Ponte Nova",
     address: "Av. Francisco Vieira Martins, 508 – Loja 01 – Palmeiras",
@@ -187,7 +217,7 @@ export const stores = [
     city: "São João Del-Rei",
     address: "Rua Padre José Maria Xavier, 131, Centro",
     phone: " 32 8482-1793",
-    link: "https://www.ifood.com.br/delivery/sao-joao-del-rei-mg/hakuna-batata-centro/cc7efd98-ca30-4a4b-89d3-ae1500dac676",
+    link: "https://hakunasaojoaodelrei.saipos.com/home",
 
   },
 
