@@ -142,7 +142,7 @@ export const stores = [
   },
   {
     city: "Montes Claros",
-    address: "Av Donato Quintino, 90 - Loja 07A",
+    address: "Av. Donato Quintino, 90 - Cidade Nova, SHOPPING MONTES CLAROS.",
     phone: "Indisponível",
     link: "",
   },
