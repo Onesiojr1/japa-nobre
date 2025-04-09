@@ -38,7 +38,7 @@ export const ServicesCard = styled.div`
   background: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: 240px;
   border-radius: 10px;

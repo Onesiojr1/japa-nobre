@@ -1,7 +1,7 @@
 import about from '../../images/Hakuna.jpeg'
 import Mg01 from '../../images/MapBrazil.png'
-import Menu01 from '../../images/Cardapio.png'
-import Menu02 from '../../images/Cardapio02.png'
+import Menu01 from '../../images/Cardapio03.png'
+import Menu02 from '../../images/Cardapio04.png'
 
 export const homeObjOne = {
     id: 'about',

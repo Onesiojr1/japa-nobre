@@ -23,13 +23,13 @@ export const stores = [
     city: "Belo Horizonte - Barreiro",
     address: "Av. Afonso Vaz de Melo, 640, Barreiro - Belo Horizonte MG",
     phone: "(31) 9720-1610",
-    link: "",
+    link: "https://www.ifood.com.br/delivery/contagem-mg/hakuna-batata-barreiro-barreiro/",
   },
   {
     city: "Belo Horizonte – Coração Eucaristico",
     address: "Rua Coração Eucaristico, 311",
     phone: "Indisponível",
-    link: "",
+    link: "https://www.ifood.com.br/delivery/belo-horizonte-mg/hakuna-batata-coracao-eucaristico-coracao-eucaristico",
   },
 {
     city: "Belo Horizonte - Savassi",
@@ -47,7 +47,7 @@ export const stores = [
 {
     city: "Belo Horizonte – Buritis",
     address: "Av. Professor Mário Werneck, 1360 – Loja 117",
-    phone: "(31) 2573-0117",
+    phone: "(31) 8239-2606",
     link: "https://menu.ifood.com.br/a2810e25-d1ae-4079-841d-69269797c38c",
   },
 
@@ -95,7 +95,7 @@ export const stores = [
 {
     city: "Governador Valadares",
     address: "Avenida, R. 7 de Setembro, 3500 - Centro",
-    phone: "(33) 9934-1731",
+    phone: "(33) 9953-8475",
     link: "https://www.ifood.com.br/delivery/governador-valadares-mg/hakuna-batata---gv-shopping-centro/dc41f34d-f9a8-49cd-bed4-efb01708c8c9",
   },
 
@@ -111,6 +111,13 @@ export const stores = [
     address: "AV. Barão do rio branco, 3760 – Loja 17",
     phone: "(32) 99957-9348",
     link: "https://www.ifood.com.br/delivery/juiz-de-fora-mg/hakuna-batata-alto-dos-passos/123eee8d-6020-4341-a6d4-146e2116a4c1",
+
+  },
+  {
+    city: "Juiz de Fora- Independência shopping",
+    address: "Av. Presidente Itamar Franco, 3600 – Cascatinha Independência shopping – Praça de alimentação",
+    phone: "Indisponível",
+    link: "https://www.ifood.com.br/delivery/juiz-de-fora-mg/hakuna-batata---independencia-shopping-cascatinha",
 
   },
   {
@@ -144,7 +151,7 @@ export const stores = [
     city: "Montes Claros",
     address: "Av. Donato Quintino, 90 - Cidade Nova, SHOPPING MONTES CLAROS.",
     phone: "Indisponível",
-    link: "",
+    link: "https://hakunamontesclaros.saipos.com/home",
   },
 {
     city: "Muriaé",
@@ -204,7 +211,7 @@ export const stores = [
     city: "Poços de caldas",
     address: "Av. Silvio Monteiro dos Santos, 180 - Vale dos Antas",
     phone: "Indisponível",
-    link: "",
+    link: "https://www.ifood.com.br/delivery/pocos-de-caldas-mg/hakuna-batata-pocos-de-caldas-vale-das-antas",
   },
 {
     city: "Ponte Nova",
