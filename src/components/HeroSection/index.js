@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import Video from '../../videos/video10.mp4'
-import VideoMobile from '../../videos/video10Mobile.mp4'
+import Video from '../../videos/video1.mp4'
+import VideoMobile from '../../videos/video1Mobile.mp4'
 // import {ExternalButton} from '../ButtonElement'
 import {
   HeroContainer,
