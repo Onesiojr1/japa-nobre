@@ -9,11 +9,13 @@ import {
   ServicesCard,
   ServicesBtnWrong,
 } from "./ServicesElements";
-import { stores } from "./stores";
+import { useStores } from "./useStores";
 import { AiFillPhone  } from 'react-icons/ai'
 import {MdLocationOn} from 'react-icons/md'
 
 const Services = () => {
+  const stores = useStores();
+
   return (
     <ServicesContainer id="Stores">
       <ServicesH1>Nossas Lojas</ServicesH1>
